@@ -7,7 +7,7 @@ import (
 	"strings"
 )
 
-func getFloat() (float64, error) {
+func GetFloat() (float64, error) {
 
 	reader := bufio.NewReader(os.Stdin)
 
